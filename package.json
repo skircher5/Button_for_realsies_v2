@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "description": "Color Changing button",
+  "main": "app.js",
+  "keywords": [
+    "color",
+    "button"
+  ],
+  "author": {
+    "name": "Meyerson, Gabe",
+    "email": "gabemeyerson@gmail.com"
+  },
+  "scripts": {
+    "start": "node ./bin/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinyrobot54/colorButton"
+  },
+  "engines": {
+    "node": ">= 7.2.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "latest",
+    "scss-utils": "latest"
+  }
+}

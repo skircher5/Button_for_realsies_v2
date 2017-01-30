@@ -1,0 +1,16 @@
+@import 'utility';
+
+#redButton {
+  @include background-color(linear-gradient(red, orange, yellow, green, blue, indigo, violet));
+}
+
+body {
+  background: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+#img {
+  background-image: url('https://68.media.tumblr.com/32e96b2f3b7fc6c7595ba66014baef91/tumblr_og5xp9T4nm1vtjpooo1_400.gif');
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
